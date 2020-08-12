@@ -1,0 +1,2112 @@
+@font-face
+{
+    font-family: 'bpdotssquaresregular';
+    src: url('fonts/bpdotssquare/BPdotsSquare-webfont.eot');
+    src: url('fonts/bpdotssquare/BPdotsSquare-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bpdotssquare/BPdotsSquare-webfont.woff2') format('woff2'),
+         url('fonts/bpdotssquare/BPdotsSquare-webfont.woff') format('woff'),
+         url('fonts/bpdotssquare/BPdotsSquare-webfont.ttf') format('truetype'),
+         url('fonts/bpdotssquare/BPdotsSquare-webfont.svg#bpdotssquaresregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'ballparkweiner';
+    src: url('ballpark-webfont.woff2') format('woff2'),
+         url('ballpark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Elements principaux des pages*/
+body
+{
+    background: url('images/image_de_fond.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: all;
+}
+
+section h2, footer h2, nav a
+{
+    font-family: 'open_sansregular', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section h2
+{
+    background-color: #FFFFFF;
+}
+
+/* genres produits */
+.nouveaute, .accessoire
+{
+    background: #FFFFFF;
+    width: 77px;
+}
+
+.console
+{
+    background-color: #FFFFFF;
+    width: 57px;
+}
+
+.produit_derive, .jeu_de_guerre, .tendance_pop_partie_un, .tendance_pop_partie_deux, .date_prochaine_sortie_partie_un_modif_9_monkeys
+{
+    background-color: #FFFFFF;
+    width: 104px;
+}
+
+.topvente_partie_un, .topvente_partie_deux
+{
+    background-color: #FFFFFF;
+    width: 73px;
+}
+
+.produit_derive_pokemon
+{
+    margin-bottom: 5px;
+    background-color: #FFFFFF;
+    width: 174px;
+}
+
+.produit_derive_partie_un, .produit_derive_partie_deux
+{
+    background-color: #FFFFFF;
+    width: 104px;
+    margin-bottom: 5px;
+}
+
+.jeu_d_action_aventure, .date_prochaine_sortie_partie_un
+{
+    background-color: #FFFFFF;
+    width: 106px;
+}
+
+.jeu_de_role
+{
+    background-color: #FFFFFF;
+    width: 81px;
+}
+
+.jeu_de_simulation, .date_prochaine_sortie_partie_un_modif_cat_quest
+{
+    background-color: #FFFFFF;
+    width: 128px;
+}
+
+.jeu_de_sport
+{
+    background-color: #FFFFFF;
+    width: 90px;
+}
+
+.fortnite
+{
+    background-color: #FFFFFF;
+    width: 103px;
+    margin-bottom: 5px;
+}
+
+/*Header toutes pages*/
+
+header
+{
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+header h1, nav a
+{
+    font-family: 'bpdotssquaresregular';
+}
+
+.main_logo
+{
+    display: flex;
+}
+
+.cubegaming_logo
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#description_website
+{
+    margin-top: -30px;
+}
+
+.search_field_website
+{
+    display: flex;
+    margin-left: 200px;
+}
+
+.search_field_contain
+{
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+.icon_search
+{
+    width: 17px;
+    height: 17px;
+}
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 155px;
+}
+
+nav li
+{
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+nav a
+{
+    text-decoration: none;
+}
+
+/*Banniere accueil*/
+
+#banniere_image_page_accueil
+{
+    margin-top: 150px;
+    border-radius: 5px;
+    background: url('images/banniere_jeu_video.jpg');
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+#phrase_banniere_page_accueil
+{
+    padding-top: 10px;
+    padding-left: 970px;
+}
+
+#phrase_banniere_page_accueil p
+{
+    text-align: center;
+    background: url('images/image_de_fond.jpg');
+    width: 120px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#photo_ps5_banniere_page_accueil img
+{
+    margin-top: -30px; 
+    margin-left: 200px;
+    width: 450px;
+    border: 1px solid black;
+}
+
+#photo_xboxseriesx_banniere_page_accueil img
+{
+    width: 450px;
+    margin-top: -450px; 
+    margin-left: 1200px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+
+
+/* Corps */
+
+/* ID/Class : Page Accueil / Page Accessoires / Page Bons Plans / Page Cartes Yu Gi Oh / Page Catégories / Page Consoles / Page Produits Fortnite / Page Jeux Video /
+Page Nouveautés / Page Plateformes / Page Tendeances Pop / Page prochaines sorties / Page produits dérivés / Page Top ventes /
+: corps / photo / detailphoto / presentation / texte / prix */  
+
+/* corps */
+#jeux_accueil, #consoles_accueil, #accessoires_accueil, #produits_derives_accueil, #topventes_partie_un_accueil, #topventes_partie_deux_page_accueil,
+#accessoires_partie_un_page_accessoires, #accessoires_partie_deux_page_accessoires, #bons_plans_page, #cartes_yu_gi_oh_partie_un_page_cartes_yu_gi_oh, 
+#cartes_yu_gi_oh_partie_deux_page_cartes_yu_gi_oh, #consoles_page_de_consoles, #produits_fortnite_page_de_produits_fortnite,
+#jeux_video_page_de_jeux_video_partie_un, #jeux_video_page_de_jeux_video_partie_deux, #jeux_video_page_de_jeux_video_partie_trois,
+#nouveautes_partie_un_page_nouveautes, #nouveautes_partie_deux_page_nouveautes, #nouveautes_partie_trois_page_nouveautes, #nouvautes_partie_quatre_page_nouveautes, 
+#plateformes_page_plateformes, #produits_pokemon_page_produits_pokemon, #tendances_pop_partie_un_page_tendances_pop, #tendances_pop_partie_deux_page_tendances_pop, 
+#prochaines_sorties_partie_un_page_prochaines_sorties, #prochaines_sorties_partie_deux_page_prochaines_sorties, #produits_derives_partie_un_page_produits_derives,
+#produits_derives_partie_deux_page_produits_derives, #produits_derives_partie_trois_page_produits_derives, #topventes_partie_un_accueil,
+#topventes_partie_un_page_topventes, #topventes_partie_deux_page_topventes, .accessoires_categorie_accessoires, .jeux_d_action_aventure_categorie_jeux_d_action_aventure,
+.jeux_de_guerre_categorie_jeux_de_guerre, .jeux_de_role_categorie_jeux_de_role, .jeux_de_simulation_categorie_jeux_de_simulation,
+.jeux_de_sport_categorie_jeux_de_sport, .categories_toutes_categories, .categories_toutes_categories_partie_un, .categories_toutes_categories_partie_deux,
+.plateforme_page_plateformes_partie_un, .plateforme_page_plateformes_partie_deux
+{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+/* Pages/Produits :  photo / detail photo */
+.photo_jeu_page_accueil, .photo_jeu_detail_page_accueil, .photo_console_page_accueil, .photo_console_detail_page_accueil, .photo_produit_derive_page_accueil, 
+.photo_produit_derive_detail_page_accueil, .photo_topvente_partie_un_page_accueil, .photo_topvente_detail_partie_un_page_accueil,
+.photo_topvente_partie_deux_page_accueil, .photo_topvente_detail_partie_deux_page_accueil, .photo_accessoire_partie_un_page_accessoires, 
+.photo_accessoire_detail_partie_un_page_accessoires, .photo_accessoire_partie_deux_page_accessoires, .photo_accessoire_detail_partie_deux_page_accessoires,
+.photo_bon_plan_page_bons_plans, .photo_bon_plan_detail_page_bons_plans, .photo_paquet_cartes_yu_gi_oh_partie_un_page_cartes_yu_gi_oh, 
+.photo_cartes_yu_gi_oh_detail_partie_un_page_cartes_yu_gi_oh, .photo_paquet_cartes_yu_gi_oh_partie_deux_page_cartes_yu_gi_oh, 
+.photo_cartes_yu_gi_oh_detail_partie_deux_page_cartes_yu_gi_oh, .photo_console_page_consoles, .photo_console_detail_page_consoles, 
+.photo_produit_fortnite_page_produits_fortnite, .photo_produit_fortnite_detail_page_produits_fortnite, .photo_jeu_video_page_jeux_video_partie_un,
+.photo_jeu_video_detail_page_jeux_video_partie_un, .photo_jeu_video_page_jeux_video_partie_deux, .photo_jeu_video_detail_page_jeux_video_partie_deux,
+.photo_jeu_video_page_jeux_video_partie_trois, .photo_jeu_video_detail_page_jeux_video_partie_trois, .photo_nouveaute_partie_un_page_nouveautes,
+.photo_nouveaute_detail_partie_un_page_nouveautes, .photo_nouveaute_partie_deux_page_nouveautes, .photo_nouveaute_detail_partie_deux_page_nouveautes,
+.photo_nouveaute_partie_trois_page_nouveautes, .photo_nouveaute_detail_partie_trois_page_nouveautes, .photo_nouveaute_partie_quatre_page_nouveautes, 
+.photo_nouveaute_detail_partie_quatre_page_nouveautes, .photo_page_plateformes, .logo_page_plateformes,
+.photo_tendance_pop_partie_un_page_tendances_pop, .photo_tendance_pop_detail_partie_un_page_tendances_pop, .photo_tendance_pop_partie_deux_page_tendances_pop,
+.photo_tendance_pop_detail_partie_deux_page_tendances_pop, .photo_topvente_partie_un_page_accueil, .photo_topvente_partie_un_page_topventes,
+.photo_topvente_detail_partie_un_page_topventes, .photo_topvente_partie_deux_page_topventes, .photo_topvente_detail_partie_deux_page_topventes,
+.photo_accessoire_ps4_page_categorie_accessoires_ps4, .photo_accessoire_detail_page_categorie_accessoires_ps4, .photo_accessoire_switch_page_categorie_accessoires_switch,
+.photo_accessoire_detail_page_categorie_accessoires_switch, .photo_accessoire_xbox_one_page_categorie_accessoires_xbox_one,
+.photo_accessoire_detail_page_categorie_accessoires_xbox_one, .photo_jeu_d_action_aventure_ps4_page_categorie_jeux_d_action_aventure_ps4,
+.photo_jeu_d_action_aventure_detail_page_categorie_jeux_d_action_aventure_ps4, .photo_jeu_de_guerre_page_categorie_jeux_de_guerre_xbox_one,
+.photo_jeu_de_guerre_detail_page_categorie_jeux_de_guerre_xbox_one, .photo_jeu_de_role_page_categorie_jeux_de_role_ps4, .photo_jeu_de_role_detail_page_categorie_jeux_de_role_ps4,
+.photo_jeu_de_simulation_page_categorie_jeux_de_simulation_switch, .photo_jeu_de_simulation_detail_page_categorie_jeux_de_simulation_switch,
+.photo_jeu_de_sport_page_categorie_jeux_de_sport_ps4, .photo_jeu_de_sport_detail_page_categorie_jeux_de_sport_ps4, .photo_produit_page_toutes_categories_pc,
+.photo_produit_detail_page_toutes_categories_pc, .photo_produit_page_toutes_categories_ps4_partie_un, .photo_produit_detail_page_toutes_categories_ps4_partie_un,
+.photo_produit_page_toutes_categories_ps4_partie_deux, .photo_produit_detail_page_toutes_categories_ps4_partie_deux, .photo_produit_page_toutes_categories_switch,
+.photo_produit_detail_page_toutes_categories_switch, .photo_produit_page_toutes_categories_xbox_one_partie_un, .photo_produit_detail_page_toutes_categories_xbox_one_partie_un,
+.photo_produit_page_toutes_categories_xbox_one_partie_deux, .photo_produit_detail_page_toutes_categories_xbox_one_partie_deux,
+.photo_produit_page_plateforme_ps4_partie_un, .photo_produit_detail_page_plateforme_ps4_partie_un, .photo_produit_page_plateforme_ps4_partie_deux,
+.photo_produit_detail_page_plateforme_ps4_partie_deux, .photo_produit_page_plateforme_xbox_one_partie_un, .photo_produit_detail_page_plateforme_xbox_one_partie_un,
+.photo_produit_page_plateforme_xbox_one_partie_deux, .photo_produit_detail_page_plateforme_xbox_one_partie_deux, .photo_produit_page_plateforme_switch_partie_un,
+.photo_produit_detail_page_plateforme_switch_partie_un, .photo_produit_page_plateforme_pc_partie_un, .photo_produit_detail_page_plateforme_pc_partie_un
+{
+    height: 350px;
+}
+
+.photo_accessoire_page_accueil, .photo_accessoire_detail_page_accueil, .photo_produit_pokemon_page_produits_pokemon, .photo_produit_pokemon_detail_page_produits_pokemon,
+.photo_prochaine_sortie_partie_un_page_prochaines_sorties, .photo_prochaine_sortie_detail_partie_un_page_prochaines_sorties, 
+.photo_prochaine_sortie_partie_deux_page_prochaines_sorties, .photo_prochaine_sortie_detail_partie_deux_page_prochaines_sorties, .photo_produit_derive_partie_un_page_produits_derives,
+.photo_produit_derive_detail_partie_un_page_produits_derives, .photo_produit_derive_partie_deux_page_produits_derives, .photo_produit_derive_detail_partie_deux_page_produits_derives,
+.photo_produit_derive_partie_trois_page_produits_derives, .photo_produit_derive_detail_partie_trois_page_produits_derives
+{
+    height: 250px;
+}
+
+/* Presentation */ /* Contenu detail supplémentaires produits */
+.presentation_jeu_page_accueil, .presentation_console_page_accueil, .presentation_accessoire_page_accueil, .presentation_produit_derive_page_accueil, 
+.presentation_topvente_partie_un_page_accueil, .presentation_topvente_partie_deux_page_accueil, .presentation_accessoire_partie_un_page_accessoires, 
+.presentation_accessoire_partie_deux_page_accessoires, .presentation_bon_plan_page_bons_plans, .presentation_paquet_cartes_yu_gi_oh_partie_un_page_cartes_yu_gi_oh,
+.presentation_paquet_cartes_yu_gi_oh_partie_deux_page_cartes_yu_gi_oh, .presentation_console_page_consoles, .presentation_produit_fortnite_page_produits_fortnite,
+.presentation_jeu_video_page_jeux_video_partie_un, .presentation_jeu_video_page_jeux_video_partie_deux, .presentation_jeu_video_page_jeux_video_partie_trois,
+.presentation_nouveaute_partie_un_page_nouveautes, .presentation_nouveaute_partie_deux_page_nouveautes, .presentation_nouveaute_partie_trois_page_nouveautes,
+.presentation_nouveaute_partie_quatre_page_nouveautes, .texte_lien_page_plateformes, .presentation_produit_pokemon_page_produits_pokemon, 
+.presentation_tendance_pop_partie_un_page_tendances_pop, .presentation_tendance_pop_partie_deux_page_tendances_pop, .presentation_prochaine_sortie_partie_un_page_prochaines_sorties, 
+.presentation_prochaine_sortie_partie_deux_page_prochaines_sorties, .presentation_produit_derive_partie_un_page_produits_derives, 
+.presentation_produit_derive_partie_deux_page_produits_derives, .presentation_produit_derive_partie_trois_page_produits_derives,
+.presentation_topvente_partie_un_page_accueil, .presentation_topvente_partie_un_page_topventes, .presentation_topvente_partie_deux_page_topventes,
+#contenu_detail_sup_produit_accessoire, .presentation_accessoire_ps4_page_categorie_accessoires_ps4, .presentation_accessoire_page_categorie_accessoires_switch,
+.presentation_accessoire_page_categorie_accessoires_xbox_one, .presentation_jeu_d_action_aventure_page_categorie_jeux_d_action_aventure_pc,
+.presentation_jeu_d_action_aventure_page_categorie_jeux_d_action_aventure_ps4, .presentation_jeu_d_action_aventure_page_categorie_jeux_d_action_aventure_switch,
+.presentation_jeu_d_action_aventure_page_categorie_jeux_d_action_aventure_xbox_one, .presentation_jeu_de_guerre_page_categorie_jeux_de_guerre_PC,
+.presentation_jeu_de_guerre_page_jeux_de_guerre_ps4, .presentation_jeu_de_guerre_page_categorie_jeux_de_guerre_switch,
+.presentation_jeu_de_guerre_page_categorie_jeux_de_guerre_xbox_one, .presentation_jeu_de_role_page_jeux_de_role_pc, .presentation_jeu_de_role_page_categorie_jeux_de_role_ps4,
+.presentation_jeu_de_role_page_categorie_jeux_de_role_switch, .presentation_jeu_de_role_page_categorie_jeux_de_role_xbox_one, 
+.presentation_jeu_de_simulation_page_categorie_jeux_de_simulation_pc, .presentation_jeu_de_simulation_page_categorie_jeux_de_simulation_ps4,
+.presentation_jeu_de_simulation_page_categorie_jeux_de_simulation_switch, .presentation_jeu_de_simulation_page_categorie_jeux_de_simulation_xbox_one,
+.presentation_jeu_de_sport_page_categorie_jeux_de_sport_pc, .presentation_jeu_de_sport_page_categorie_jeux_de_sport_ps4, 
+.presentation_jeu_de_sport_page_categorie_jeux_de_sport_switch, .presentation_jeu_de_sport_page_categorie_jeux_de_sport_xbox_one,
+.presentation_produit_page_toutes_categories_pc, .presentation_produit_page_toutes_categories_ps4_partie_un, .presentation_produit_page_toutes_categories_ps4_partie_deux,
+.presentation_produit_page_toutes_categories_switch, .presentation_produit_page_toutes_categories_xbox_one_partie_un, 
+.presentation_produit_page_toutes_categories_xbox_one_partie_deux, .presentation_produit_page_plateforme_ps4_partie_un, .presentation_produit_page_plateforme_ps4_partie_deux,
+.presentation_produit_page_plateforme_xbox_one_partie_un, .presentation_produit_page_plateforme_xbox_one_partie_deux, .presentation_produit_page_plateforme_switch_partie_un,
+.presentation_produit_page_plateforme_pc_partie_un
+{
+    margin-top: 5px;
+    background-color: #FFFFFF;
+}
+
+/* Prix */ /* Titres des produits */ /* Presentations des produits par catégorie */
+.prix_jeu_page_accueil, .prix_console_page_accueil, .prix_accessoire_page_accueil, .prix_produit_derive_page_accueil, .prix_topvente_partie_un_page_accueil, 
+.prix_topvente_partie_deux_page_accueil, .prix_accessoire_partie_un_page_accessoires, .prix_accessoire_partie_deux_page_accessoires,
+.prix_paquet_cartes_yu_gi_oh_partie_un_page_cartes_yu_gi_oh, .prix_paquet_cartes_yu_gi_oh_partie_deux_page_cartes_yu_gi_oh, .prix_console_page_consoles,
+.prix_produit_fortnite_page_produits_fortnite, .prix_jeu_video_page_jeux_video_partie_un, .prix_jeu_video_page_jeux_video_partie_deux,
+.prix_jeu_video_page_jeux_video_partie_trois, .prix_nouveaute_partie_un_page_nouveautes, .prix_nouveaute_partie_deux_page_nouveautes,
+.prix_nouveaute_partie_trois_page_nouveautes, .prix_nouveaute_partie_quatre_page_nouveautes, .prix_produit_pokemon_page_produits_pokemon, .prix_tendance_pop_partie_un_page_tendances_pop,
+.prix_tendance_pop_partie_deux_page_tendances_pop, .prix_prochaine_sortie_partie_un_page_prochaines_sorties, .prix_prochaine_sortie_partie_deux_page_prochaines_sorties,
+.prix_produit_derive_partie_un_page_produits_derives, .prix_produit_derive_partie_deux_page_produits_derives, .prix_produit_derive_partie_trois_page_produits_derives,
+.prix_topvente_partie_un_page_accueil, .prix_topvente_partie_un_page_topventes, .prix_topvente_partie_deux_page_topventes, .titre_produit,
+.presentation_accessoire_pc_page_categorie_accessoires_pc, .prix_accessoire_page_categorie_accessoires_ps4, .prix_accessoire_page_categorie_accessoires_switch,
+.prix_accessoire_page_categorie_accessoires_xbox_one, .prix_jeu_d_action_aventure_page_categorie_jeux_d_action_aventure_ps4, 
+.prix_jeu_de_guerre_page_categorie_jeux_de_guerre_xbox_one, .prix_jeu_de_role_page_categorie_jeux_de_role_ps4, .prix_jeu_de_simulation_page_categorie_jeux_de_simulation_switch,
+.prix_jeu_de_sport_page_categorie_jeux_de_sport_ps4, .prix_produit_page_toutes_categories_pc, .prix_produit_page_toutes_categories_ps4_partie_un,
+.prix_produit_page_toutes_categories_ps4_partie_deux, .prix_produit_page_toutes_categories_switch, .prix_produit_page_toutes_categories_xbox_one_partie_un,
+.prix_produit_page_toutes_categories_xbox_one_partie_deux, .prix_produit_page_plateforme_ps4_partie_un, .prix_produit_page_plateforme_ps4_partie_deux,
+.prix_produit_page_plateforme_xbox_one_partie_un, .prix_produit_page_plateforme_xbox_one_partie_deux, .prix_produit_page_plateforme_switch_partie_un,
+.prix_produit_page_plateforme_pc_partie_un
+{
+    background-color: #FFFFFF;
+}
+
+.prix_bon_plan_page_bons_plans
+{
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+/*Bon plans modifications*/
+
+.bon_plan
+{
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.prix_barre
+{
+    text-decoration: line-through;
+}
+
+.prix_non_barre
+{
+    padding-left: 5px;
+}
+
+/*Catagories page categories*/
+
+#liste_liens_categories
+{
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.liste_liens_categories
+{
+    margin: auto;
+    justify-content: space-between;
+}
+
+#liens_xbox_one, #liens_switch, #liens_PC, #liens_ps4
+{
+    margin-bottom: 25px;
+}
+
+/* Contenu lien cube gaming */
+td
+{
+    border: 1px solid black; 
+
+}
+
+table
+{
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+
+
+/* jeux video page jeux video modifications */
+
+.jeu_video_partie_un, .jeu_video_partie_deux, .jeu_video_partie_trois
+{
+    background-color: #FFFFFF;
+    width: 69px;
+}
+
+/* Partie un */
+
+.jeu_video_partie_un_modif_9mos
+{
+    background-color: #FFFFFF;
+    width: 184px;
+}
+
+.jeu_video_partie_un_modif_cp2077
+{
+    background-color: #FFFFFF;
+    width: 244px;
+}
+
+.jeu_video_partie_un_modif_mde
+{
+    background-color: #FFFFFF;
+    width: 190px;
+}
+
+.presentation_jeu_video_page_jeux_video_partie_un_modif_cp2077
+{
+    margin-top: 5px;
+    background-color: #FFFFFF;
+    width: 280px;
+}
+
+/* Partie deux */
+
+/* Partie trois */
+
+
+.jeu_video_partie_trois_modif_cq1et2
+{
+    background-color: #FFFFFF;
+    width: 215px;
+}
+
+.jeu_video_partie_trois_modif_ma
+{
+    background-color: #FFFFFF;
+    width: 235px;
+}
+
+/* prochaines sorties page prochaines sorties modifications*/
+
+/*prochaines sorties parti un */
+
+.date_prochaine_sortie_partie_un_modif_marvels_avengers
+{
+    background-color: #FFFFFF;
+    width: 155px;
+}
+
+/*prochaines sorties partie deux */
+
+.date_prochaine_sortie_partie_deux_modif_cyberpunk_2077
+{
+    background-color: #FFFFFF;
+    width: 160px;
+}
+
+/*Produits derives page produits derives modifications*/
+
+.presentation_produit_derive_partie_deux_page_produits_derives_modif_fond_blanc
+{
+    background-color: #FFFFFF;
+    margin-top: 5px;
+    width: 98px;
+}
+
+.produit_derive_pokemon_partie_un, .produit_derive_pokemon_partie_deux, .produit_derive_pokemon_partie_trois
+{
+    background-color: #FFFFFF;
+    width: 174px;
+}
+
+
+.prix_produit_derive_partie_deux_page_produits_derives_modif_fond_blanc, .prix_produit_derive_partie_trois_page_produits_derives_modif_fond_blanc
+{
+    background-color: #FFFFFF;
+    width: 98px;
+}
+
+
+/*Top ventes page top ventes*/
+
+/*Tous les produits*/
+
+/*Offre*/
+
+#contenu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#photo_detail_offre img
+{
+    height: 281px;
+    margin-top: 40px;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+
+#prix_produit
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#presentation_detail_offre
+{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 100px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#contenu_detail_sup_offre
+{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#description_suite p
+{
+    text-align: justify;
+}
+
+/*Produits - accessoires*/
+
+.photo_detail_produit_accessoire img
+{
+    border: 1px solid black;
+    margin: 40px;
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.presentation_detail_produit_accessoire
+{
+    background-color: #FFFFFF;
+    margin-bottom: 250px;
+    width: 450px;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-right: 400px;
+    font-weight: bold;
+}
+
+.prix_produit_accessoire
+{
+    font-size: 2em;
+}
+
+.contenu_detail_sup_produit_accessoire
+{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+/*bons plans*/
+
+/* Photos bons plans*/
+
+#photo_detail_produit_bon_plan
+{
+    height: 700px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+
+#photo_detail_produit_bon_plan img
+{
+    border: 1px solid black;
+    height: 700px;
+    width: 500px;
+    margin-left: 70px;
+}
+
+#photo_detail_produit_jeu_de img
+{
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 100px;
+}
+
+#photo_detail_produit_jeu_fifa20 img
+{
+    border: 1px solid black;
+    height: 700px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+/*Présentations bons plans*/
+
+#presentation_detail_produit_bon_plan, .presentation_detail_produit_bon_plan_cod_mw
+{
+    margin-right: 400px;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    height: 170px;
+}
+
+#presentation_detail_produit_bon_plan_de
+{
+    background-color: #FFFFFF;
+    margin-right: 300px;
+    margin-top: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 210px;
+    width: 500px;
+}
+
+#presentation_detail_produit_bon_plan_fifa20
+{
+    background-color: #FFFFFF;
+    margin-right: 300px;
+    margin-top: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 240px;
+    width: 500px;
+}
+
+#presentation_detail_produit_bon_plan_rdr2
+{
+    background-color: #FFFFFF;
+    margin-right: 300px;
+    margin-top: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 222px;
+    width: 500px;
+}
+
+/*Prix bons plans*/
+
+#prix_barre_produit_bon_plan
+{
+    font-size: 1.1em;
+    text-decoration: line-through;
+}
+
+#prix_non_barre_produit_bon_plan
+{
+    font-size: 2.2em;
+}
+
+/*Détails supplémentaires jeux vidéo*/
+
+#contenu_detail_sup_produit_bon_plan
+{
+    background-color: #FFFFFF;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+/* Produits dérivés - cartes yu gi oh */
+
+.photo_detail_produit_carte_yu_gi_oh img
+{
+    border: 1px solid black;
+    margin-left: 100px;
+    height: 500px;
+}
+
+.presentation_detail_produit_carte_yu_gi_oh
+{
+    margin-top: 170px;
+    margin-right: 300px;
+    background-color: #FFFFFF;
+    height: 220px;
+    width: 500px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.prix_produit_carte_yu_gi_oh
+{
+    font-size: 2em;
+}
+
+.contenu_detail_sup_produit_carte_yu_gi_oh
+{
+    background-color: #FFFFFF;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+/* Categories */
+
+/*Categories accessoires */
+
+
+/*PC
+
+.photo_accessoire_pc_page_categorie_accessoires_pc
+{
+    
+}
+
+.photo_accessoire_detail_page_categorie_accessoires_pc
+{
+
+}
+
+prix_accessoire_page_categorie_accessoires_pc
+{
+    
+}
+*/
+
+/* Jeux d'aventure  - modifications */
+
+/* PC */
+/*
+.photo_jeu_d_action_aventure_pc_page_categorie_jeux_d_action_aventure_pc
+{
+    
+}
+
+.photo_jeu_d_action_aventure_detail_page_categorie_jeux_d_action_aventure_pc
+{
+    
+}
+
+.prix_jeu_d_action_aventure_page_categorie_jeux_d_action_aventure_pc
+{
+   
+}
+*/
+
+/* PS4 */
+
+.jeu_d_action_aventure_modif_rdr2
+{
+    background-color: #FFFFFF;
+    width: 159px;
+}
+
+/* Switch */
+
+/*
+
+.photo_jeu_d_action_aventure_switch_page_categorie_jeux_d_action_aventure_switch
+{
+    height: 350px;
+}
+
+.photo_jeu_d_action_aventure_detail_page_categorie_jeux_d_action_aventure_switch
+{
+    height: 350px;
+}
+*/
+
+/*
+
+.prix_jeu_d_action_aventure_page_jeux_d_action_aventure_switch
+{
+    background-color: #FFFFFF;
+}
+
+
+/* Xbox One */
+
+/*
+
+.photo_jeu_d_action_aventure_switch_page_categorie_jeux_d_action_aventure_xbox_one
+{
+    height: 350px;
+}
+
+.photo_jeu_d_action_aventure_detail_page_categorie_jeux_d_action_aventure_xbox_one
+{
+    height: 350px;
+}
+*/
+
+/*
+
+.prix_jeu_d_action_aventure_page_jeux_d_action_aventure_xbox_one
+{
+    background-color: #FFFFFF;
+}
+
+/* Jeux de guerre */
+
+/* PC */
+
+/*
+
+.photo_jeu_de_guerre_page_categorie_jeux_de_guerre_PC
+{
+    height: 350px;
+}
+
+.photo_jeu_de_guerre_detail_page_categorie_jeux_de_guerre_PC
+{
+    height: 350px;
+}
+*/
+
+/*
+
+.prix_jeu_de_guerre_page_categorie_jeux_de_guerre_PC
+{
+    background-color: #FFFFFF;
+}
+
+/* PS4 */
+
+/*
+
+.photo_jeu_de_guerre_page_categorie_jeux_de_guerre_ps4
+{
+    height: 350px;
+}
+
+.photo_jeu_de_guerre_detail_page_jeux_de_guerre_ps4
+{
+    height: 350px;
+}
+
+*/
+
+/*
+
+.prix_jeu_de_guerre_page_jeux_de_guerre_ps4
+{
+    background-color: #FFFFFF;
+}
+
+/* Switch */
+
+/*
+
+.photo_jeu_de_guerre_page_categorie_jeux_de_guerre_switch
+{
+    height: 350px;
+}
+
+.photo_jeu_de_guerre_<!-- nom_du_jeu -->detail_page_categorie_jeux_de_guerre_switch
+{
+    height: 350px;
+}
+
+*/
+
+/*
+
+.prix_jeu_de_guerre_page_categorie_jeux_de_guerre_switch
+{
+    background-color: #FFFFFF;
+}
+
+/* Xbox One */
+
+/* Jeux de rôle */
+
+/* PC */
+
+/*
+.photo_jeu_de_role_page_jeux_de_role_pc
+{
+    height: 350px;
+}
+
+.photo_jeu_de_role_detail_page_jeux_de_role_pc
+{
+    height: 350px;
+}
+*/
+
+/*
+.prix_jeu_de_role_page_jeux_de_role_pc
+{
+    background-color: #FFFFFF;
+}
+
+/* PS4 */
+
+/* Switch */
+
+/* 
+
+.photo_jeu_de_role_page_categorie_jeux_de_role_switch
+{
+    height: 350px;
+}
+
+.photo_jeu_de_role_detail_page_categorie_jeux_de_role_switch
+{
+    height: 350px;
+}
+
+.prix_jeu_de_role_page_categorie_jeux_de_role_switch
+{
+    background-color: #FFFFFF;
+}
+
+/* Xbox One */
+
+/*
+
+.photo_jeu_de_role_page_categorie_jeux_de_role_xbox_one
+{
+    height: 350px;
+}
+
+.photo_jeu_de_role_detail_page_categorie_jeux_de_role_xbox_one
+{
+    height: 350px;
+}
+
+.prix_jeu_de_role_page_categorie_jeux_de_role_xbox_one
+{
+    background-color: #FFFFFF;
+}
+
+/* Jeux de simulation */
+
+/* PC */
+
+/*
+
+.photo_jeu_de_simulation_page_categorie_jeux_de_simulation_pc
+{
+    height: 350px;
+}
+
+.photo_jeu_de_simulation_detail_page_categorie_jeux_de_simulation_pc
+{
+    height: 350px;
+}
+
+.prix_jeu_de_simulation_page_categorie_jeux_de_simulation_pc"
+{
+    background-color: #FFFFFF;  
+}
+
+*/
+
+/* PS4 */
+
+/*
+
+.photo_jeu_de_simulation_page_categorie_jeux_de_simulation_ps4
+{
+    height: 350px;
+}
+
+.photo_jeu_de_simulation_detail_page_categorie_jeux_de_simulation_ps4
+{
+    height: 350px;
+}
+
+.prix_jeu_de_simulation_page_categorie_jeux_de_simulation_ps4
+{
+    background-color: #FFFFFF;
+}
+*/
+
+/* Switch */
+
+/* Xbox One */
+
+/*
+
+.photo_jeu_de_simulation_page_categorie_jeux_de_simulation_xbox_one
+{
+    height: 350px;
+}
+
+.photo_jeu_de_simulation_detail_page_categorie_jeux_de_simulation_xbox_one
+{
+    height: 350px;
+}
+
+.prix_jeu_de_simulation_page_categorie_jeux_de_simulation_xbox_one
+{
+    background-color: #FFFFFF;
+}
+
+
+/* Jeux de sport */
+
+/* PC */
+
+/* 
+.photo_jeu_de_sport_page_categorie_jeux_de_sport_pc
+{
+    height: 350px;
+}
+
+.photo_jeu_de_sport_detail_page_categorie_jeux_de_sport_pc
+{
+    height: 350px;
+}
+
+.prix_jeu_de_sport_page_categorie_jeux_de_sport_pc
+{
+    background-color: #FFFFFF;
+}
+*/
+
+/* PS4 */
+
+/* Switch */
+
+/*
+
+.photo_jeu_de_sport_page_categorie_jeux_de_sport_switch
+{
+    height: 350px;
+}
+
+.photo_jeu_de_sport_detail_page_categorie_jeux_de_sport_switch
+{
+    height: 350px;
+}
+
+.prix_jeu_de_sport_page_categorie_jeux_de_sport_switch
+{
+    background-color: #FFFFFF;
+}
+
+*/
+
+/*Xbox One */
+
+/*
+.photo_jeu_de_sport_page_categorie_jeux_de_sport_xbox_one
+{
+    height: 350px;
+}
+
+
+.photo_jeu_de_sport_detail_page_categorie_jeux_de_sport_xbox_one
+{
+    height: 350px;
+}
+
+.prix_jeu_de_sport_page_categorie_jeux_de_sport_xbox_one
+{
+    background-color: #FFFFFF;
+}
+*/
+
+
+/* Categorie Consoles */ /* Page consoles */
+
+/* photos consoles */
+
+.photo_detail_produit_console img
+{
+    height: 500px;
+    width: 600px;
+    margin-left: 150px;
+    border: 1px solid black;
+}
+
+
+/* presentations consoles */
+
+.presentation_detail_produit_console
+{
+    background-color: #FFFFFF;
+    width: 750px;
+    height: 320px;
+    margin-right: 220px;
+    border-radius: 5px;
+    margin-top: 80px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_console_pcgamer
+{
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-right: 500px;
+    height: 168px;
+    width: 300px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_console_ps4, .presentation_detail_produit_console_xbox_one
+{
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-right: 240px;
+    height: 169px;
+    width: 700px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* prix consoles */
+
+.prix_produit_console
+{
+    font-size: 2em;
+}
+
+/* Details supplémentaires */
+
+.contenu_detail_sup_produit_console
+{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* Jeux vidéo */
+
+/* photos des jeux */
+
+.photo_detail_produit_jeu img, #photo_detail_produit_jeu_oppw4_ps4 img
+{
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 150px;
+}
+
+#photo_detail_produit_jeu_fifa20 img
+{
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 500px;
+    height: 600px;
+}
+
+/* présentation des jeux */
+
+.presentation_detail_produit_jeu
+{
+    background-color: #FFFFFF;
+    width: 700px;
+    margin-right: 250px;
+    height: 205px;
+    border-radius: 5px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_jeu_cod_mw
+{
+    background-color: #FFFFFF;
+    width: 700px;
+    margin-right: 300px;
+    height: 169px;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_jeu_FFVII_remake, .presentation_detail_produit_jeu_de
+{
+    background-color: #FFFFFF;
+    width: 700px;
+    margin-right: 250px;
+    height: 190px;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_jeu_acnh
+{
+    background-color: #FFFFFF;
+    width: 700px;
+    margin-right: 250px;
+    height: 224px;
+    border-radius: 5px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_jeu_modif_cq1et2
+{
+    background-color: #FFFFFF;
+    width: 500px;
+    margin-right: 300px;
+    height: 190px;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+/* prix des jeux */
+
+.prix_produit_jeu
+{
+    font-size: 2em;
+}
+
+
+/* details sup jeux*/
+
+.contenu_detail_sup_produit_jeu
+{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* Toutes categories */
+
+/* Categorie pc */
+
+.categorie_pc
+{
+    margin-bottom: -5px;
+    background-color: #FFFFFF;
+    width: 93px;
+}
+
+/* categorie ps4 */
+
+/* partie un */
+
+.categorie_ps4_partie_un
+{
+    background-color: #FFFFFF;
+    width: 99px;
+}
+
+/* partie deux */
+
+.categorie_ps4_partie_deux
+{
+    background-color: #FFFFFF;
+    width: 99px;
+}
+
+/* Categorie switch */
+
+.categorie_switch
+{
+    background-color: #FFFFFF;
+    width: 123px;
+}
+
+/* categorie xbox one */
+
+/* partie un */ /* partie deux */
+
+.categorie_xbox_one_partie_un, .categorie_xbox_one_partie_deux
+{
+    background-color: #FFFFFF;
+    width: 143px;
+}
+
+/* Produits derives */
+
+/*photos produits derives */
+
+.photo_detail_produit_produit_derive img
+{
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 150px;
+}
+
+/*presentations produits derives*/
+.presentation_detail_produit_produit_derive
+{
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 225px;
+    margin-top: 40px;
+    margin-right: 500px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* prix produits derives */
+.prix_produit_produit_derive
+{
+    font-size: 2em;
+}
+
+/* Détails sup produit derives */
+.contenu_detail_sup_produit_produit_derive
+{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* Jeux video */
+
+.presentation_detail_produit_jeu_modif_9mos
+{
+    margin-top: 100px;
+    margin-right: 500px;
+    background-color: #FFFFFF;
+    height: 190px;
+    width: 500px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_jeu_modif_cp2077, .presentation_detail_produit_jeu_ma
+{
+    margin-top: 100px;
+    margin-right: 500px;
+    background-color: #FFFFFF;
+    height: 206px;
+    width: 500px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.presentation_detail_produit_jeu_mde
+{
+    margin-top: 80px;
+    margin-right: 400px;
+    background-color: #FFFFFF;
+    height: 170px;
+    width: 400px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* produits page nouveautes */
+
+.presentation_detail_produit_produit_derive_modif_swmhi, .presentation_detail_produit_produit_derive_modif_mvg25cm, .presentation_detail_produit_produit_derive_modif_clfm, 
+.presentation_detail_produit_produit_derive_remrat
+{
+    margin-top: 100px;
+    margin-right: 400px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 253px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_produit_derive_mvg
+{
+    margin-top: 100px;
+    margin-right: 400px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 225px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_produit_derive_modif_cerr, .presentation_detail_produit_produit_derive_dbsxd3tul
+{
+    margin-top: 100px;
+    margin-right: 400px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 235px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_produit_derive_dbzssp9uo
+{
+    margin-top: 100px;
+    margin-right: 500px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 272px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#description_produit_jeu_tlou2
+{
+    background-color: #FFFFFF;
+    height: 100px;
+}
+
+#section_page_produit_tlou2
+{
+    margin-top: 100px;
+}
+/* page plateformes */
+
+
+/* produits pokemon */
+
+.presentation_detail_produit_produit_derive_modif_tspsyduck, .presentation_detail_produit_produit_derive_modif_tsevoli
+{
+    margin-top: 100px;
+    margin-right: 300px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 210px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_produit_derive_modif_bp
+{
+    margin-top: 100px;
+    margin-right: 300px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 235px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* Produits tendances pop */
+
+.presentation_detail_produit_produit_derive_modif_dbzgssj3
+{
+    margin-top: 80px;
+    margin-right: 400px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 310px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Prochaines sorties - produits*/
+
+#contenu_prochaine_sortie_ps5, #contenu_prochaine_sortie_XBOXSERIESX
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.video_detail_produit_console_ps5 video, .video_detail_produit_console_xboxseriesx 
+video
+{
+    margin-top: 100px;
+    margin-left: 600px;
+    border: 1px solid black;
+}
+
+.photos_detail_produit_console_partie_un, .photos_detail_produit_console_partie_deux,
+.photos_detail_produit_console
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#image_un_ps5 img, #image_un_xboxseriesx img, #image_deux_xboxseriesx img
+{
+    border: 1px solid black
+}
+
+#image_deux_ps5 img, #image_trois_ps5 img, #image_quatre_ps5 img, 
+#image_un_xboxseriesx img
+{
+    width: 711px;
+    border: 1px solid black
+}
+
+#image_deux_xboxseriesx img
+{
+    width: 604px;
+}
+
+#description_detail_produit_console_ps5, 
+#description_detail_produit_console_xboxseriesx
+{
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* produits derives - produits */
+
+.presentation_detail_produit_produit_derive_modif_dbzvssj
+{
+    margin-top: 100px;
+    margin-right: 300px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 253px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_produit_derive_modif_sampep, .presentation_detail_produit_produit_derive_modif_pcfs4l, 
+.presentation_detail_produit_produit_derive_modif_mopt92
+{
+    margin-top: 100px;
+    margin-right: 400px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 230px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_produit_derive_modif_rswcebf
+{
+    margin-top: 100px;
+    margin-right: 300px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 293px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.presentation_detail_produit_produit_derive_modif_fswmea
+{
+    margin-top: 100px;
+    margin-right: 250px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 235px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Pied de page */
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#liste_liens_pied_de_page
+{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+}
+
+#liste_liens_pied_de_page_page_cube_gaming
+{
+    background-color: #FFFFFF;
+}
+
+/*Formulaire page connexion/inscription*/
+#titre_partie_un, #titre_partie_deux
+{
+    text-align: center;
+}
+
+#contenus_partie_un, #contenus_partie_deux
+{
+    margin-top: 70px;
+    margin-left: 0px;
+    background: url('images/image_de_fond.jpg');
+    height:350px;
+    width: 600px;
+    border-radius: 20px/10px;
+}
+
+#contenu_formulaire
+{
+    height: 500px;
+}
+
+#contenu_formulaire p
+{
+    margin-top: 200px;
+    font-size: 2em;
+}
+
+#formulaires_un_et_deux
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    height: 500px;
+}
+
+#completion_champs_partie_un
+{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 60px;
+    justify-content: space-around;
+}
+
+#contenu_saisie_email_formulaire_partie_un
+{
+    margin-right: 50px;
+}
+
+#contenu_saisie_mot_de_passe_formulaire_partie_un
+{
+    margin-left: 50px;
+}
+
+#bouton_partie_un
+{
+    margin-top: 70px;
+    margin-left: 258px;
+}
+
+#completion_champs_nom_prenom_partie_deux
+{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#contenu_nom_partie_deux
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#contenu_prenom_partie_deux
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+#completion_champ_email_formulaire_partie_deux
+{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+#contenu_email_inscription_partie_deux
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#contenu_email_inscription_partie_deux input
+{
+    width: 170px;
+}
+
+#completion_champs_mdp_confirmation_mdp_inscription_partie_deux
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#contenu_confirmation_mot_de_passe_inscription_partie_deux
+{
+    margin-left: 10px;
+}
+
+#contenu_confirmation_age_requis_inscription_partie_deux
+{
+    margin-top: 5px;
+    margin-left: 56px;
+}
+
+#contenu_confirmation_conditions_generales_vente_inscription_partie_deux
+{
+    margin-left: 56px;
+}
+
+#contenu_confirmation_age_requis_inscription_partie_deux, #contenu_confirmation_conditions_generales_vente_inscription_partie_deux
+{
+    font-size: 0.8em;
+}
+
+#bouton_partie_deux
+{
+    margin-top: 15px;
+    margin-left: 255px;
+}
+
+/*Formulaire Candidature*/
+#contenu_dossier_formulaire_candidature_partie_un, #completion_champs_nom_prenom_formulaire_dossier_candidature_partie_un, #contenu_dossier_formulaire_candidature_partie_deux, 
+#completion_champs_adresse_postale_formulaire_dossier_candidature_partie_deux, #contenu_saisie_adresse_formulaire_dossier_candidature_partie_deux, #contenu_dossier_candidature_partie_trois
+{
+    display: flex;
+}
+
+#contenu_nom_formulaire_dossier_candidature_partie_un, #contenu_prenom_formulaire_dossier_candidature_partie_un, #contenu_email_formulaire_dossier_candidature_partie_un,
+#contenu_adresse_formulaire_dossier_candidature_partie_deux, #contenu_code_postal_formulaire_dossier_candidature_partie_deux, #contenu_ville_formulaire_dossier_candidature_partie_deux, 
+#contenu_experience_professionelle_formulaire_dossier_candidature_partie_trois, #contenu_dernier_poste_eu_formulaire_dossier_candidature_partie_trois
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+#contenu_age_candidature_formulaire_dossier_candidature_partie_un, #contenu_date_lieu_naissance_formulaire_dossier_candidature_partie_un, #lettre_de_motivation_formulaire_dossier_candidature_partie_trois, 
+#cv_candidature_formulaire_dossier_candidature_partie_trois
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#completion_champs_age_date_lieu_de_naissance_formulaire_dossier_candidature_partie_un input
+{
+    width: 282px;
+}
+
+#contenu_dernier_poste_eu_formulaire_dossier_candidature_partie_trois, #cv_candidature_formulaire_dossier_candidature_partie_trois label
+{
+    margin-top: 10px;
+}
+
+#contenu_experience_professionelle_formulaire_dossier_candidature_partie_trois select, #contenu_dernier_poste_eu_formulaire_dossier_candidature_partie_trois input
+{
+    width: 170px;
+}
+
+#boutons_enregistrement_envoi_formulaire_dossier_candidature
+{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#bouton_enregistrement_donness_candidature
+{
+    margin-left: 25px;
+}
+
+#contenu_cv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cv
+{
+    width: 700px;
+}
+
+@media all and (max-width: 1024px)
+{
+    /* en tête */
+    .main_title
+    {
+        margin-bottom: 150px;
+    }
+
+    /* liens de navigation */
+    nav ul
+    {
+        display: block;
+    }
+
+    /*banniere de l'accueil */
+    #banniere_image_page_accueil
+    {
+        
+        margin-top: 15px;
+        height: 350px;
+        border-radius: 5px;
+        background: url('images/banniere_jeu_video.jpg') repeat-x bottom;
+        position: relative;
+        box-shadow: 0px 4px 4px #1c1a19;
+        margin-bottom: 25px;
+    }
+
+    #phrase_banniere_page_accueil
+    {
+        margin-left: -550px;
+    }
+
+    #photo_ps5_banniere_page_accueil img
+    {
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    #photo_xboxseriesx_banniere_page_accueil img
+    {
+        width: 350px;
+        margin-top: -250px; 
+        margin-left: 550px;
+        
+    }
+
+    #offre_page_accueil, #jeux_accueil, #consoles_accueil, #accessoires_accueil, #produits_derives_accueil, #topventes_partie_un_accueil, #topventes_partie_deux_page_accueil,
+    #accessoires_partie_un_page_accessoires, #accessoires_partie_deux_page_accessoires, #bons_plans_page, #cartes_yu_gi_oh_partie_un_page_cartes_yu_gi_oh,
+    #consoles_page_de_consoles, #produits_fortnite_page_de_produits_fortnite, #jeux_video_page_de_jeux_video_partie_un, #jeux_video_page_de_jeux_video_partie_deux, 
+    #jeux_video_page_de_jeux_video_partie_trois, #nouveautes_partie_un_page_nouveautes, #nouveautes_partie_deux_page_nouveautes, #nouveautes_partie_trois_page_nouveautes, 
+    #plateformes_page_plateformes, #produits_pokemon_page_produits_pokemon, #tendances_pop_partie_un_page_tendances_pop, #tendances_pop_partie_deux_page_tendances_pop,
+    #prochaines_sorties_partie_un_page_prochaines_sorties, #prochaines_sorties_partie_deux_page_prochaines_sorties, #produits_derives_partie_un_page_produits_derives,
+    #produits_derives_partie_deux_page_produits_derives, #produits_derives_partie_trois_page_produits_derives, #topventes_partie_un_page_topventes,
+    #topventes_partie_deux_page_topventes, .accessoires_categorie_accessoires, .jeux_d_action_aventure_categorie_jeux_d_action_aventure, .jeux_de_guerre_categorie_jeux_de_guerre,
+    .jeux_de_role_categorie_jeux_de_role, .jeux_de_simulation_categorie_jeux_de_simulation, .jeux_de_sport_categorie_jeux_de_sport, #categories_toutes_categories,
+    .categories_toutes_categories_partie_un, .categories_toutes_categories_partie_deux, .categories_toutes_categories, .plateforme_page_plateformes_partie_un,
+    .plateforme_page_plateformes_partie_un, .plateforme_page_plateformes_partie_deux
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #description_offre_page_accueil
+    {
+        display: none;
+    }
+
+    /* toutes les pages/tous les produits */
+    #produit_fortnite_un_page_produits_fortnite, #produit_fortnite_deux_page_produits_fortnite, #produit_fortnite_trois_page_produits_fortnite, 
+    #produit_fortnite_quatre_page_produits_fornite, #lien_ps4_page_plateformes, #lien_xbox_one_page_plateformes, #lien_switch_page_plateformes, #lien_pc_page_plateformes
+    {
+        margin-bottom: 10px;
+    }
+
+    #presentation_detail_produit_bon_plan_fifa20, #presentation_detail_produit_bon_plan_rdr2  
+    {
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+
+    .presentation_detail_produit_console_pcgamer, .presentation_detail_produit_jeu_modif_9mos
+    {
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+
+    .presentation_detail_produit_console_ps4,  .presentation_detail_produit_console_xbox_one
+    {
+        margin-top: 10px;
+        margin-left: 95px;
+    }
+
+    .presentation_detail_produit_jeu_de, .presentation_detail_produit_jeu_modif_cq1et2, .presentation_detail_produit_produit_derive_modif_swmhi
+    {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .presentation_detail_produit_jeu_acnh, .presentation_detail_produit_produit_derive_modif_pcfs4l, .presentation_detail_produit_jeu_FFVII_remake
+    {
+        margin-top: 10px;
+    }
+
+    .presentation_detail_produit_produit_derive, .presentation_detail_produit_jeu_ma, .presentation_detail_produit_produit_derive_modif_clfm,  
+    .presentation_detail_produit_produit_derive_modif_sampep, .presentation_detail_produit_produit_derive_modif_tsevoli, .presentation_detail_produit_produit_derive_modif_tspsyduck
+    {
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+
+    .presentation_detail_produit_produit_derive_modif_bp, .presentation_detail_produit_produit_derive_modif_dbzvssj, .presentation_detail_produit_produit_derive_modif_fswmea,
+    .presentation_detail_produit_produit_derive_modif_rswcebf
+    {
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+
+    .presentation_detail_produit_produit_derive_remrat, .presentation_detail_produit_produit_derive_modif_dbzgssj3
+    {
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    .presentation_detail_produit_produit_derive_dbsxd3tul, .presentation_detail_produit_produit_derive_modif_mopt92
+    {
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    /* Tous les produits */
+    #photo_detail_offre img
+    {
+        border: 1px solid black;
+    }
+
+    #presentation_detail_offre
+    {
+        margin-right: 250px;
+        width: 550px;
+    }
+
+    #contenu
+    {
+        flex-direction: column;
+    }
+
+    .presentation_detail_produit_accessoire
+    {
+        width: auto;
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+
+    .section_page_accessoire
+    {
+        margin-top: -200px;
+    }
+
+    /*bons plans */
+    #presentation_detail_produit_bon_plan_de
+    {
+        margin-top: 5px;
+        margin-left: 100px;
+    }
+
+    #photo_detail_produit_bon_plan
+    {
+        margin-left: -10px;
+    }
+    
+    .presentation_detail_produit_jeu_cod_mw
+    {
+        margin-top: 5px;
+    }
+
+    /*cartes yu-gi-oh*/
+    .presentation_detail_produit_carte_yu_gi_oh
+    {
+        margin: auto;
+    }
+
+    .photo_detail_produit_carte_yu_gi_oh
+    {
+        margin-left: 220px;
+    }
+
+    /* produits par catégorie */
+    /*Consoles*/
+    .presentation_detail_produit_console 
+    {
+        margin-top: 10px;
+        margin-left: 65px;
+    }
+
+    /*jeux vidéo*/
+    .presentation_detail_produit_jeu
+    {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .presentation_detail_produit_jeu_modif_cp2077
+    {
+        margin-top: 10px;
+        margin-left: 95px;
+    }
+
+    .presentation_detail_produit_jeu_mde
+    {
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+
+    /*nouveautés*/
+   
+    .presentation_detail_produit_produit_derive_mvg
+    {
+        margin-top: 10px;
+        margin-left: 75px;
+    }
+
+    .presentation_detail_produit_produit_derive_modif_mvg25cm
+    {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .presentation_detail_produit_produit_derive_modif_cerr
+    {
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .presentation_detail_produit_produit_derive_dbzssp9uo
+    {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    /*Prochaines sorties - PS5*/
+
+    #contenu_prochaine_sortie_ps5, #contenu_prochaine_sortie_XBOXSERIESX
+    {
+
+    }
+
+    .video_detail_produit_console_ps5 video, .video_detail_produit_console_xboxseriesx 
+    video
+    {
+        margin-left: 100px;
+    }
+
+    .photos_detail_produit_console_partie_un, .photos_detail_produit_console_partie_deux,
+    .photos_detail_produit_console
+    {
+        display: flex;
+        flex-direction: column;
+    }   
+
+    #image_un_ps5 img, #image_deux_ps5 img, #image_trois_ps5 img, 
+    #image_quatre_ps5 img, #image_un_xboxseriesx img, #image_deux_xboxseriesx img
+    {
+        margin-left: 50px;
+        margin-right: -50px;
+    }
+
+
+
+    /* Page Connexion/Inscription*/
+
+    #formulaires_un_et_deux
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    #contenus_partie_un
+    {
+       margin: auto;
+       margin-top: 50px;
+    }
+
+    #contenu_formulaire p
+    {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #contenus_partie_deux
+    {
+        margin: auto;
+        margin-bottom: 90px;
+    }
+
+    #pied_de_page_page_connexion_inscription
+    {
+        margin-top: 500px;
+    }    
+
+    /*Page Recrutement*/
+    #completion_champs_nom_prenom_formulaire_dossier_candidature_partie_un, #contenu_saisie_adresse_formulaire_dossier_candidature_partie_deux, #confirmation_permis_partie_deux,  
+    #type_permis_partie_deux select
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #date_de_naissance_formulaire_dossier_candidature_partie_un, #lieu_de_naissance_formulaire_dossier_candidature_partie_un,  #contenu_age_candidature_formulaire_dossier_candidature_partie_un, 
+    #contenu_saisie_type_permis_formulaire_dossier_candidature_partie_deux, #saisie_code_postal_formulaire_dossier_candidature_partie_deux, #saisie_ville_formulaire_dossier_candidature_partie_deux
+    {
+        margin-top: 15px;
+    }
+
+    #completion_champ_confirmation_permis_formulaire_dossier_candidature_partie_deux, #completion_champs_candidature_formulaire_dossier_candidature_partie_trois
+    {
+        width: 290px;
+    }
+
+    #contenu_saisie_nom_formulaire_dossier_candidature_partie_un input, #contenu_saisie_prenom_formulaire_dossier_candidature_partie_un input, 
+    #contenu_saisie_adresse_formulaire_dossier_candidature_partie_deux input, #contenu_saisie_email_formulaire_dossier_candidature_partie_un input
+    {
+        width: 268px;
+    }
+
+    #boutons_radio_oui_non_permis_formulaire_dossier_candidature_partie_deux
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
